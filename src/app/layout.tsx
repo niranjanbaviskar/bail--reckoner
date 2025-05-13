@@ -37,6 +37,7 @@ export default function RootLayout({
     { name: "Marketplace", link: "/marketplace" },
     { name: "Statistics", link: "/statistics" },
     { name: "Bail Criteria Assessment", link: "/bail-overview" },
+     { name: "AI Advisor", link: "/ChatBot" },
   ];
   const router = useRouter();
   const handleChatButtonClick = () => {
