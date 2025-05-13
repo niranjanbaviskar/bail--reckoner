@@ -18,7 +18,8 @@ export default function LandingPage() {
     { name: "FAQ", link: "/faq" },
     { name: "Marketplace", link: "/marketplace" },
     { name: "Statistics", link: "/statistics" },
-    { name: "Bail Criteria Assessment", link: "/bail-overview" }
+    { name: "Bail Criteria Assessment", link: "/bail-overview" },
+    { name: "AI Advisor", link: "/ChatBot" },
   ];
 
   return (
