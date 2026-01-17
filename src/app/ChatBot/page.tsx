@@ -34,7 +34,7 @@ export default function BailReckonerChatBot() {
         Authorization: `Bearer ${GROQ_API_KEY}`,
       },
       body: JSON.stringify({
-        model: "llama3-70b-8192", // or llama3-70b-8192
+        model: "llama3-70b-8192", // or llama3-70b-8192 or use another
         messages: [
           {
             role: "system",
